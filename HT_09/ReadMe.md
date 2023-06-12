@@ -95,7 +95,7 @@ DROP DATABASE
 
 21. Создаем пустую БД otus:
 postgres@otus-vm-db-pg-net-1:~$ echo "CREATE DATABASE otus;" | psql -U postgres
-CREATE DATABASE
+CREATE DATABASE 
 
 22. Восстанавливвем из резервной копии:
 postgres@otus-vm-db-pg-net-1:~$  pg_restore -d otus -U postgres /var/lib/postgresql/backups/arh.gz
