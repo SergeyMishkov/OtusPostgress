@@ -1,4 +1,4 @@
-1. Создал ВМ, установил постгрес:
+1. Создал ВМ, установил постгрес :
 2. Запустил утилиту pgbench. Результаты запуска:
 postgres@otus-db-pg-vm-10:~$ pgbench -i postgres
 dropping old tables...
