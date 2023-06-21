@@ -1,5 +1,5 @@
-0. Выбран второй вариант выполнения ДЗ.
-1. Создаем таблицы:
+0. Выбран второй вариант выполнения ДЗ.  
+1. Создаем таблицы:  
 
 Клиенты:
 create table clients (id serial, first_name text, second_name text, address text); 
@@ -11,14 +11,14 @@ select generate_series(1,6),
       
 select * from clients c   
 
-id|first_name|second_name|address                       |
---+----------+-----------+------------------------------+
- 1|6b4f2ac9f7|1291c6bbf3 |1587bbb03023e3b354aeaf55ea08f2|
- 2|33c99ae360|0ed54d6416 |b798009cb7b6c9bccf0944b0e67963|
- 3|03bbdb8c3e|d1f40ae891 |f1bc4e9c5d46bd64c656a4a69d99e8|
- 4|cae2c0f137|a163117223 |9f76b892f6d56aae4cd8e903be1f6c|
- 5|5670ab857e|08a710a7a3 |dc64f68b6f34b5825e05fc56f4585b|
- 6|a1137f685b|2dd44fef3e |a2783839fec607d0ba01a07f74091d|
+id|first_name|second_name|address                       |  
+--+----------+-----------+------------------------------+  
+ 1|6b4f2ac9f7|1291c6bbf3 |1587bbb03023e3b354aeaf55ea08f2|  
+ 2|33c99ae360|0ed54d6416 |b798009cb7b6c9bccf0944b0e67963|  
+ 3|03bbdb8c3e|d1f40ae891 |f1bc4e9c5d46bd64c656a4a69d99e8|  
+ 4|cae2c0f137|a163117223 |9f76b892f6d56aae4cd8e903be1f6c|  
+ 5|5670ab857e|08a710a7a3 |dc64f68b6f34b5825e05fc56f4585b|  
+ 6|a1137f685b|2dd44fef3e |a2783839fec607d0ba01a07f74091d|  
 
 Договора:
 
