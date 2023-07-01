@@ -59,6 +59,7 @@ postgres=# select pg_current_wal_insert_lsn();
  0/21C6488
 (1 row)
 
+
 9. Количество контрольных точек:
 postgres=# select checkpoints_timed from pg_stat_bgwriter;
  checkpoints_timed
@@ -314,4 +315,4 @@ WARNING:  page verification failed, calculated checksum 40544 but expected 55109
   1 | ivan       | ivanov
   2 | petr       | petrov
   3 | lena       | lenina
-(3 rows)
+(3 rows )
